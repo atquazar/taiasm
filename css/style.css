@@ -1,0 +1,320 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-color: #edf4f7;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+.section-title {
+  margin-left: 150px;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav1:hover {
+  background-color: aquamarine;
+  color: blueviolet;
+}
+/* xay dung banner */
+.anhbanner {
+  position: relative;
+}
+#banner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 18px;
+}
+/* xay dung nav */
+.img {
+  position: relative;
+}
+
+.nav1 {
+  display: inline-block;
+  text-align: center;
+}
+
+.iconp {
+  display: flex;
+  align-items: center;
+}
+
+.anhcanhan {
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+  border-radius: 50%;
+  border: 2px solid hwb(0 15% 18%);
+  overflow: hidden;
+}
+
+.anhcanhan1 {
+  display: inline-block;
+  /* position: absolute; */
+  z-index: 1;
+  width: 100%;
+}
+/* thong tin ca nhan */
+.ttcn {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 30px;
+}
+
+#muctieu {
+  padding-bottom: 10px;
+}
+#target {
+  background-color: rgb(236, 247, 243);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#personal-info {
+  background-color: rgb(225, 240, 240);
+  padding-left: 20px;
+}
+
+.section-title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.info {
+  padding-left: 0;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+#icon1 {
+  color: #199cdb;
+}
+
+#icon111 {
+  margin-bottom: 10px;
+}
+/* thong tin nghe nghiep */
+
+.ttnn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  justify-content: center;
+  gap: 20px;
+}
+.exp i {
+  font-size: 35px;
+}
+.a1 {
+  background-color: rgb(28, 129, 129);
+  color: #f7f7f7;
+  font-style: italic;
+}
+
+.exp1 {
+  grid-column: 1 / -1;
+}
+
+.cty {
+  padding-bottom: 20px;
+}
+
+.sothich {
+  display: flex;
+  grid-column: 1 / -1;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+
+#icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #199cdb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #199cdb;
+}
+
+#diem {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  margin-bottom: 10px;
+}
+
+/* chung chi - giai thuong */
+
+.ccgt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 150px;
+  margin-right: 150px;
+  /* margin-top: 150px; */
+  gap: 50px;
+}
+
+.ccgt1 {
+  margin-top: 150px;
+}
+
+img {
+  float: left;
+  padding-right: 10px;
+}
+
+#vien1 {
+  border-left: 2px solid #d6c08d;
+  padding-left: 50px;
+}
+
+#vien2 {
+  border-top: 2px solid #d6c08d;
+  padding-top: 50px;
+}
+
+/* du an */
+
+.duan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  gap: 20px;
+}
+
+.duan12 {
+  display: flex;
+  background-color: #f1b018;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.table {
+  background-color: #d6c08d;
+  display: inline-block;
+  margin-top: 10px;
+  height: auto;
+}
+
+.table1 {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+/* liên hệ */
+
+.lienhe {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 30px;
+}
+
+.iconp i {
+  font-size: 10px;
+}
+
+/* an thong tin ca nhan */
+#hide {
+  display: none;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+/* thong tin nghe nghiep */
+/* 
+#andi {
+  display: none;
+} */
+
+#showButton1,
+#showButton2,
+#showButton3,
+#showButton4,
+#showButton5,
+#showButton6 {
+  /* display: none; */
+  background-color: #f1b018;
+  border: solid 1px rgb(104, 214, 214);
+  height: 30px;
+  width: 100px;
+}
+
+/* .tttnn1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  justify-content: center;
+  gap: 20px;
+} */
+
+.exp {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 20px;
+  border: solid rgb(225, 240, 240);
+  height: auto;
+  /* display: none; */
+}
+
+/* .exp1 {
+  display: none;
+} */
+.ttnn1,
+.exp111 i {
+  font-size: 30px;
+}
+
+.exp111 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 20px;
+  border: solid rgb(225, 240, 240);
+  /* height: auto; */
+}

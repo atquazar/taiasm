@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+  body {
+    .tong {
+      display: block;
+      height: auto;
+    }
+    .stylelaco {
+      display: block;
+    }
+    .scopes {
+      display: block;
+    }
+  }
+}

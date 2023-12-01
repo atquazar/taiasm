@@ -1,0 +1,47 @@
+* {
+  font-family: sans-serif;
+}
+
+.tong {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr;
+  gap: 0px;
+
+  margin: 20px;
+}
+
+.nen {
+  background-color: aliceblue;
+  border: 20px solid blue;
+}
+
+.no1 {
+  border-bottom: 1px solid rgb(81, 12, 240);
+}
+
+#laco {
+  height: 30px;
+  width: auto;
+
+  margin-left: 30px;
+}
+
+.stylelaco {
+  display: grid;
+  grid-template-columns: 0.15fr 1fr;
+}
+
+.time {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.p1 {
+  border-bottom: 1px dashed rgb(187, 169, 169);
+}
+
+.scopes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+}

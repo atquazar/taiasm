@@ -1,0 +1,42 @@
+/* * {
+  margin: 0px;
+  font-family: sans-serif;
+  font-size: 10px;
+} */
+
+@media screen and (max-width: 768px) {
+  body {
+    /* nav */
+    .anhcanhan {
+      display: none;
+    }
+    .ttnn {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: auto;
+      margin-top: 50px;
+      gap: 20px;
+    }
+
+    .ccgt {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+    }
+
+    img {
+      float: left;
+      padding-right: 10px;
+    }
+
+    #vien1 {
+      border-left: 2px solid #d6c08d;
+      padding-left: 50px;
+    }
+
+    #vien2 {
+      border-top: 2px solid #d6c08d;
+      padding-top: 50px;
+    }
+  }
+}
